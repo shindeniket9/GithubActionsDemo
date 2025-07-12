@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" >
-    <parameter name="x" value="y" />
-    <test verbose="2" preserve-order="true" name="C:/Users/shind/IdeaProjects/API_Automation" >
-        <classes><class name="Demo.App" >
-            <methods>
-                <include name="demo"/>
-            </methods>
-        </class>
-        </classes>
-    </test>
+<suite name="Demo Test">
+    <test verbose="2" preserve-order="true" name="C:/Users/shind/IdeaProjects/API_Automation">
+        <classes>
+            <class name="Demo.Demo">
+            </class>
+</classes>
+</test>
 </suite>
