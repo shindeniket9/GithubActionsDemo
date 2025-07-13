@@ -31,6 +31,6 @@ public class Demo {
         driver.get(url);
 
         System.out.println("Page title: " + driver.getTitle());
-        Assert.assertEquals(driver.getTitle(), "Gooogle"); // Check typo
+        Assert.assertEquals(driver.getTitle(), "Google"); // Check typo
     }
 }
